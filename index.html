@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <button id="startBtn" class="btn">Start</button>
+        <div>
+            <p id="sentence">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div id="input">
+            <input class="input" type="text" id="inputText" placeholder="Start typing here...">
+        </div>
+        <div id="timerBox">
+            <span id="timer">00:00</span>
+        </div>
+
+        <button id="restartBtn">Restart</button>
+        <button id="resultBtn" class="btn">Show Result</button>
+        <div id="result">
+            <p>Speed: <span id="speed">0</span> WPM</p>
+            <p>Letters: <span id="correctLetters">0</span> Corrected</p>
+            <p>Words: <span id="correctWords" class="resultSpans">0</span> Corrected</p>
+            <p>Wrong Letters: <span id="wrongLetters" class="resultSpans">0</span> Wronged</p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
+
 </html>
