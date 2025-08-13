@@ -3,7 +3,10 @@
 A simple and interactive **Typing Speed Tester** built with HTML, CSS, and JavaScript.  
 It measures your Words Per Minute **(WPM)**, **typing accuracy**, and **error count** .
 
+![Demo](./demo/demo.gif)
+
 ## 🚀 Live Demo
+
 [Click here to try it](https://haiderali0509.github.io/Typing-Speed-Tester/)
 
 ---
@@ -20,6 +23,7 @@ It measures your Words Per Minute **(WPM)**, **typing accuracy**, and **error co
 - **Simple & Lightweight** – no frameworks, just HTML, CSS, and JavaScript.
 
 ---
+
 ## 📜 Example Output
 
 ```
@@ -32,6 +36,7 @@ Wrong Letters: 2 Wronged
 ```
 
 ---
+
 ## 📖 Usage
 
 1. Open the page in a browser.
@@ -58,6 +63,7 @@ Wrong Letters: 2 Wronged
 ## 🔧 Configuration
 
 To change the test sentence:
+
 - Open `script.js`
 - Replace:
   ```javascript
@@ -68,4 +74,5 @@ To change the test sentence:
 ---
 
 ## 🧑‍💻 Author
+
 **Your Name** – [GitHub](https://github.com/haiderali0509)
