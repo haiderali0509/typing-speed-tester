@@ -7,7 +7,7 @@ It measures your Words Per Minute **(WPM)**, **typing accuracy**, and **error co
 
 ## 🚀 Live Demo
 
-[Click here to try it](https://haiderali0509.github.io/Typing-Speed-Tester/)
+[Click here to try it](https://haiderali0509.github.io/typing-speed-tester/)
 
 ---
 
